@@ -1,6 +1,6 @@
 # Criptomoneda quote
 
-Banckend deploy on Azure App Service.
+Banckend deployed on Azure App Service.
 
 Language | Environment | Author |
 | --------| -------- | -------- |
