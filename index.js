@@ -46,7 +46,7 @@ function server() {
         }
     });
 
-    apolloServer.listen({port: process.env.PORT || 4000}).then(({url}) => {
+    apolloServer.listen({port: process.env.PORT}).then(({url}) => {
         console.log('Server listen on: ', url);
     })
 }
