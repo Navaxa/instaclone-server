@@ -1,6 +1,6 @@
-# Criptomoneda quote
+# Instaclone backend
 
-Banckend deployed on Azure App Service.
+Backend deployed on Azure App Service.
 
 Language | Environment | Author |
 | --------| -------- | -------- |
