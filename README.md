@@ -4,7 +4,7 @@ Bancked deploy on Azure App Service.
 
 Language | Environment | Author |
 | --------| -------- | -------- |
-javascript| Node Js |  Miguel Nava | |
+Javascript| Node Js |  Miguel Nava | |
 
 Watch application here [https://navaxa.github.io/instaclone-client/](https://navaxa.github.io/instaclone-client/)
 
