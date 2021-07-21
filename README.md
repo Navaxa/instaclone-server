@@ -1,6 +1,6 @@
 # Criptomoneda quote
 
-Bancked deploy on Azure App Service.
+Banckend deploy on Azure App Service.
 
 Language | Environment | Author |
 | --------| -------- | -------- |
