@@ -5,7 +5,7 @@ const resolvers = require('./gql/resolver');
 const jwt = require('jsonwebtoken');
 require('dotenv').config();
 
-mongoose.connect(process.env.DDBB, {
+mongoose.connect('mongodb+srv://MEAN_USER:1fbVQrEWTxcTRkqu@mycluster.qyn01.mongodb.net/instagram', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,
@@ -46,7 +46,7 @@ function server() {
         }
     });
 
-    apolloServer.listen({port: process.env.PORT}).then(({url}) => {
+    apolloServer.listen({port: process.env.PORT || 4000}).then(({url}) => {
         console.log('Server listen on: ', url);
     })
 }
