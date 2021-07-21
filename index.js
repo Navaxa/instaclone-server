@@ -5,7 +5,7 @@ const resolvers = require('./gql/resolver');
 const jwt = require('jsonwebtoken');
 require('dotenv').config();
 
-mongoose.connect('mongodb+srv://MEAN_USER:1fbVQrEWTxcTRkqu@mycluster.qyn01.mongodb.net/instagram', {
+mongoose.connect(process.env.DDBB, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,
